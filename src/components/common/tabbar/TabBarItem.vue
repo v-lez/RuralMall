@@ -22,7 +22,7 @@ export default {
       return this.$route.path.indexOf(this.path) !== -1
     },
     activeStyle () {
-      return this.isActived ? {color: this.activeColor} : {}
+      return this.isActived ? { color: this.activeColor } : {}
     }
   },
   methods: {
@@ -41,7 +41,6 @@ export default {
   /* 49px一般是大多数导航栏的高度 */
   height: 49px;
   font-size: 14px;
-  color: #2196f3;
   font-weight: bold;
 }
 #tab-bar-item img {
