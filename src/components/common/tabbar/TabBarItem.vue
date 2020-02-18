@@ -34,20 +34,20 @@ export default {
 </script>
 
 <style scoped>
-#tab-bar-item {
-  /* 让所有弹性盒子模型对象的子元素都有相同的长度，且忽略他们内部的内容 */
-  flex: 1;
-  text-align: center;
-  /* 49px一般是大多数导航栏的高度 */
-  height: 49px;
-  font-size: 14px;
-  font-weight: bold;
-}
-#tab-bar-item img {
-  height: 24px;
-  width: 24px;
-  padding-top: 1px;
-  vertical-align: middle;
-  margin-bottom: 2px;
-}
+  #tab-bar-item {
+    /* 让所有弹性盒子模型对象的子元素都有相同的长度，且忽略他们内部的内容 */
+    flex: 1;
+    text-align: center;
+    /* 49px一般是大多数导航栏的高度 */
+    height: 49px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  #tab-bar-item img {
+    height: 24px;
+    width: 24px;
+    padding-top: 6px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+  }
 </style>
